@@ -1,0 +1,22 @@
+ ARDUINO
+
+Usaremos entradas e/ou saídas (0-13)
+
+Microcontrolador - coração do arduíno
+
+componentes eletrônicos
+-protoboard - Serve para alocarmos os circuitos;
+- resistor, limitar a corrente 
+-Leds - Luz, (Hur Dur) - Polaridade (Positivo [Maior] e negativo [Menor])
+-
+- 
+
+GND - Negativo do arduino
+
+
+
+potenciometro:
+
+marrom, negativo
+veremelho, positivo, motor
+laranja , porta 9 ardino

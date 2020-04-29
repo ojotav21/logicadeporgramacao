@@ -1,0 +1,28 @@
+// botão avengers
+
+int botao = 2; // led no pino 10
+int led = 10; // botão pin 2
+int funcaoa = 0; //valor instantaneo enviado pelo botão
+int funcaob = 0; //Valor Guardado
+int estado = 0; //Guarda 0 ou 1 (High ou Low)
+
+void setup(){
+  pinMode(led, OUTPUT); //Led como saida
+  pinMode(botao, INPUT); // Define o botão como entrada
+}
+
+void loop()
+{
+  funcaoa = digitalRead(botao); // Le o valor enviado pelo botão "high " ou "Low"
+  
+  if ((funcaoa == HIGH) && (funcaob == LOW)) { //se A for igual a Ligado e B for igual a Desligado
+    estado = 1 - estado;// estado <- 1 - Estado
+    delay(500);
+}
+ funcaob= funcaoa;
+   if (estado == 1) { // estado for igual a 1, ligado
+   digitalWrite(led, HIGH);
+ } else{
+   digitalWrite(led, LOW);  // estado for igual a 0, desligado 
+ }
+}

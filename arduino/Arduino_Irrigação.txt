@@ -1,0 +1,44 @@
+
+
+/*==========================================================================
+                     Sistema de irrigação com Arduino
+==========================================================================*/
+ 
+int valvula = 8; // sinal do rele para válvula
+ 
+void setup() {
+  pinMode(valvula, OUTPUT); // declara válvula como saída
+}
+ 
+void loop() {
+ 
+ // Leitura do sensor no pino A0 e armazenamento em SensorValue
+ 
+ int sensorValue = analogRead(A0);
+ 
+ // verifica se valor de leitura está acima de 600 (umido abaixo de 600  e seco até 1023)
+ 
+ if (sensorValue > 600){
+   // se sim, libera água por 1s
+   digitalWrite(valvula,LOW);
+   delay(1000);
+   digitalWrite(valvula,HIGH); // desliga válvula
+ }
+ 
+ else{
+ // se não, interrompe a passagem de água
+   digitalWrite(valvula,HIGH);
+   delay(1000);
+  }
+  delay(3000); // Aguarda 3s para verificar se solo está umido novamente
+}
+
+
+//http://blog.baudaeletronica.com.br/sistema-de-irrigacao-com-arduino/
+//https://youtu.be/oPnxT-s5a5g
+
+//https://www.youtube.com/watch?v=BDwgDO3MgDs
+
+//http://blog.baudaeletronica.com.br/sensor-de-umidade-de-solo/ para sensor de umidae
+
+//https://www.usinainfo.com.br/blog/projeto-arduino-de-irrigacao-automatica-sua-planta-sempre-bem-cuidada/

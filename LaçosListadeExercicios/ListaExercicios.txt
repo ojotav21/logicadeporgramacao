@@ -1,0 +1,16 @@
+1. Faça um algoritmo que escreva na tela os números de um número inicial a um número final. Os números inicial e final devem ser informados pelo usuário;
+2. Escrever um algoritmo que imprima a tabuada de um número informado pelo usuário;
+3. Escrever um algoritmo que gera e escreve os números ímpares entre 100 e 200;
+4. Em uma turma há 10 alunos. Cada aluno tem 2 notas. Um professor precisa calcular a média das duas notas de cada aluno. Crie um programa que resolve este
+problema.
+5. Escrever um programa de computador que leia 10 números inteiros e, ao final, apresente a soma de todos os números lidos;
+6. Faça o mesmo que antes, porém, ao invés de ler 10 números, o programa deverá ler e somar números até que o valor digitado seja zero ( 0 )
+7. Escreva um algoritmo que calcule a média dos números digitados pelo usuário, se eles forem pares. Termine a leitura se o usuário digitar zero (0);
+8. Escreva um algoritmo que leia valores inteiros e encontre o maior e o menor deles. Termine a leitura se o usuário digitar zero (0);
+9. Escreva uma programa que lê o sexo de uma pessoa. O sexo deverá ser com o tipo de dado
+caractere e o programa deverá aceitar apenas os valores “M” ou “F”.
+10. Escreva um programa que leia dois valores reais. Ambos valores deverão ser lidos até que o usuário digite um número no intervalo de 1 a 100. Apresentar a soma dos dois valores lidos.
+11. Escreva um programa que lido um número, calcule e informe o seu fatorial.
+Ex.: 5! = 5 * 4 * 3 * 2 * 1 = 120.
+12. Escreva um programa que leia um valor correspondente ao número de jogadores de um time de vôlei. O programa deverá ler uma altura para cada um dos jogadores e, ao final, informar a altura média do time.
+

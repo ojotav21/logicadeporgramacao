@@ -1,0 +1,12 @@
+1) solicite o ano em que a pessoa nasceu, calcule a idade e faça um condicional dizendo se pode ou nao votar(idade  minima 16 anos)
+2) Digite o valor de uma compra, digite o dinheiro fornecido pelo cliente, veja se o R$ é suficiente, calcule o troco. Sabendo que o troco máximo é $20, informe se a compra poderá ser efetuada ou não.
+3) Crie um programa que solicita a nota final de um aluno. Verifique se a nota está entre 0 e 10. Mostre a mensagem APROVADO se a nota for 6 ou mais e REPROVADO se for abaixo de 6.
+4) Faça um programa que dê opções de escolha ao usuário:
+Digite 1 para calcular a área do Quadrado
+Digite 2 para calcular a área de um triangulo retângulo
+Digite 3 para para calcular a área de um retângulo
+Digite 4 para para calcular a área do trapézio
+5) Simule um programa que solicite ao usuário um sistema de catraca de trânsito, no qual tem as seguintes opções: Verifica se o usuário tem habilitação e acima de 18 anos para passar na catraca.
+6) Receba o Nome e peso de duas pessoas e informe qual é mais pesada.
+
+
